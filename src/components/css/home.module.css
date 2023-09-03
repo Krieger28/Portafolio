@@ -1,0 +1,104 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Monserrat', sans-serif; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home_container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Home{
+    padding-top:180px;
+    display:flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Home > h1 {
+    font-size: 13vh;
+
+}
+
+.Home > h2 {
+    padding-top:20px;
+}
+
+.spanname{
+    color: #f86868;
+}
+
+.Tecnologies{
+    width: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tecnologies > ul {
+    padding-top:20px;
+    list-style: none;
+    font-size:40px;
+    gap: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.icon_git{
+    color: #000000;
+}
+
+.icon_in{
+    color: #013b99;
+}
+
+.wave{
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:40vh;
+    background: linear-gradient(to top, #a52222 50%, #fff 50%);
+}
+
+/* fixear el responsivee */
+/* @media (max-width: 600px){
+    .Home > h1 {
+        font-size: 11vh;
+        flex-wrap: nowrap;
+        text-align: center;
+    
+    }
+    .Home > h2 {
+        font-size: 5vh;
+        flex-wrap: nowrap;
+        text-align: center;
+    
+    }
+    .Tecnologies{
+        width: 22%;
+    margin-top: 12vh;
+    display: flex;
+    justify-content: center;
+    }
+    .wave{
+        position: static;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height:40vh;
+        
+    }
+} */

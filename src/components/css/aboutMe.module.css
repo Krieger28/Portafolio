@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.AboutmeContainer{
+    position: relative;
+    width:100%;
+    min-height:80vh;
+    background-color:#a52222;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Aboutme{
+    padding-top:30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.AboutmeText{
+    display: flex;
+    justify-content:center;
+    font-size:30px;
+}
+
+.Aboutmep{
+    font-size:20.8px;
+    text-align:justify;
+}
+
+.aboutmeContainerSkills{
+    display:flex;   
+    width: 100%;
+    border-radius:20px;
+    justify-content:flex-start;
+    flex-direction: column;
+   
+}
+
+.skills{
+    padding-top: 20px;
+    font-size: 20px;
+    width: 100%;
+    /* wdth estaba en 80% */
+    gap: 20px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    justify-content: flex-start;
+}
+
+.js{
+    display: inline;    
+    align-items: center;
+    color:#ffd200;
+}
+.react{
+    color:#68e1fd;
+}
+
+.node{
+    color:#89bb3c;
+}
+
+.mongo{
+    color:#7eb85a;
+}
+
+.sql{
+    color:#e7e680;
+}
+.fb{
+    color:#e97b0a;
+}
+.btstrp{
+    color:#8e61d1;
+}
+.css{
+    color:#1399d1
+}
+.html{
+    color:#8d8d8d;
+}
+
+.ts{
+    color: #ffd200;
+}
+
+.auth0{
+    color: #242129;
+}
+
+.img{
+    padding-top: 40px;
+    width: 40%;
+    animation: ilustrationAnimate ease-in 1s infinite alternate;
+}
+
+@keyframes ilustrationAnimate{
+    0%{
+        transform: scale(1);
+    }100%{
+        transform: scale(1.04);
+    }
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 20vh;
+    padding-bottom: 10px;
+}
+
+.buttons{
+    margin-left: 10px;
+    border: none;
+    width: 30vh;
+    height: 8vh;
+    border-radius: 20px;
+    background: rgb(60, 144, 89);
+    color: white;
+    font-weight: bolder;  
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: large;
+}
+
+.buttons:hover{
+    background:#105d2c;
+    color: white
+
+}
+
+
+
+/* Fix responsive */
+/* @media (max-width: 600px){
+    .Aboutme{
+        padding-top: 80px;
+        width: 80%;
+    }
+    .AboutmeContainer{
+        position: relative;
+        top: 0vh;
+        flex-direction: column;
+    }
+   .AboutmeContainerTecnologies{
+    
+    padding-left: 13px;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 33px;
+
+   }
+   .abilities{
+    padding-top: 20px;
+    font-size: 14px;
+    flex-wrap: nowrap;
+    width: 100%;
+    gap: 20px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    el felx -flow: column iria aca pero estaba comentado asi que dsp hay que probarrr
+    justify-content: flex-start;
+    align-items: center;
+   }
+   .img{
+    width: 80%;
+   }
+} */
+
+/* flex-flow: column; */
