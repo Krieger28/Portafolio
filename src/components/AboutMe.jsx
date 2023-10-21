@@ -10,7 +10,7 @@ import {
 import { FaBootstrap } from "react-icons/fa";
 import { SiRedux, SiTypescript, SiAuth0 } from "react-icons/si";
 import Html from "./img/Html.svg";
-import cv from "./img/cv.pdf";
+import Ivan_Koch_en from "./img/Ivan Koch en.pdf";
 import css from "./css/aboutMe.module.css";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
@@ -32,11 +32,11 @@ function AboutMe() {
           <div className={css.btn}>
             {/* CAMBIAR POR EL CURRICULUM TERMINADO CUANDO WESTE TERMINADO */}
             <a
-              href={`https://drive.google.com/file/d/1NBgeIy4qLOovRpEwo8dNmlkyE4ZinApX/view?usp=share_link`}
+              href={`https://drive.google.com/file/d/1EaiLN8yvpx9o0JKW9mj9wMzG4vmMv-DW/view?usp=share_link`}
             >
               <button className={css.buttons}>Open CV</button>
             </a>
-            <a href={cv} download="CV-IvanKoch.pdf">
+            <a href={Ivan_Koch_en} download="CV-IvanKoch.pdf">
               <button className={css.buttons}>Download CV</button>
             </a>
           </div>

@@ -61,7 +61,7 @@ function Form() {
               <h3> Email</h3>
               <input type="email" name="email" required />
               <input type="hidden" name="_captcha" value="false" />
-              <input type="hidden" name="_next" value="http://localhost:3000" />
+              <input type="hidden" name="_next" value="https://ivan-koch-portafolio.netlify.app/" />
               <h3> Message</h3>
               <textarea placeholder="Hi!" name="Message" required />
               <button className={css.send_btn} type="submit">
